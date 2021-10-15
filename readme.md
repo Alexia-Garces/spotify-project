@@ -5,7 +5,7 @@ This project utilized data acquired from Spotify that categorized songs from 196
 ## :clipboard: Plan - Supervised Learning Classification Model
 - Complete the entire Data Science Pipleline in order to create a classification model to predict whether a song will be a hit or a flop.  
 - Explore data to gain insight and provide recommendations related to drivers of a hit song.  
-= Create insights from data analysis and the model that will create actionable items for artists, producers or record labels to use in the creative process or when deciding if a song will be a hit or not.
+- Create insights from data analysis and the model that will create actionable items for artists, producers or record labels to use in the creative process or when deciding if a song will be a hit or not.
 My initial hypotheses are that danceability, instrumentalness, and duration are drivers of a song being a hit.
 1.  **Acquire** data from kaggle database.
 2.  **Prepare** - data by handling outliers, nulls, and determining which features to keep.
@@ -47,17 +47,17 @@ Feature| Description | Data Type
 
 ## Final Project Conclusions:
 The Random Forest Model preformed best and was the most well rounded model for the job
-Accuracy on validate was 77%
-Validate Recall was 93%
-Accuracy on Test 76% accuracy which was only slighly lower than our accuracy on validate set
-Recall stayed almost the same high as well 92%
+- Accuracy on validate was 77%
+- Validate Recall was 93%
+- Accuracy on Test 76% accuracy which was only slighly lower than our accuracy on validate set
+- Recall stayed almost the same high as well 92%
 The model had a 23% improvement on baseline preformance 🥳
 ### 📄 Recommendations:
-Use model to optimize song selection for singles or inclusion in albums or concert setlists.
-Use model feature importance paired with correlation found in exploratory data analysis to determine song features during creative process.
-Hit songs tend to be less instrumental meaning songs with words tend to be hits vs songs without words.
-The more danceable a song, the more likely it is to be a hit
-the higher the energy of a song, the more likely it is to be a hit.
+- Use model to optimize song selection for singles or inclusion in albums or concert setlists.
+- Use model feature importance paired with correlation found in exploratory data analysis to determine song features during creative process.
+- Hit songs tend to be less instrumental meaning songs with words tend to be hits vs songs without words.
+- The more danceable a song, the more likely it is to be a hit
+- the higher the energy of a song, the more likely it is to be a hit.
 
 ## :briefcase: Modules:
 - Wrangle.py - contains all functions to acquire and clean data for project.
