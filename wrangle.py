@@ -39,7 +39,7 @@ def acquire_spotify():
 
 def get_spotify_data():
     '''
-    This function reads in zillow data from Codeup database, writes data to
+    This function reads in spotify data, writes data to
     a csv file if a local file does not exist, and returns a df.
     '''
     if os.path.isfile('songs_from_all_decades.csv'):
@@ -50,7 +50,7 @@ def get_spotify_data():
     else:
         
         # Read fresh data from db into a DataFrame.
-        df = new_zillow_data()
+        df = acquire_spotify()
         
         # Write DataFrame to a csv file.
         df.to_csv('songs_from_all_decades.csv')
